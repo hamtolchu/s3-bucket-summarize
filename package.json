@@ -1,0 +1,26 @@
+{
+  "name": "s3-bucket-summarize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fxts/core": "^0.14.0",
+    "bytes": "^3.1.2",
+    "dayjs": "^1.11.7",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@kurly/prettier-config": "^0.0.0",
+    "@types/bytes": "^3.1.1",
+    "@types/node": "^18.15.11",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1"
+  },
+  "prettier": "@kurly/prettier-config"
+}
