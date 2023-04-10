@@ -4,7 +4,7 @@ import dayjs from 'dayjs';
 
 import { writeFile } from 'fs/promises';
 
-import OUTPUT_LIST from './output/OUTPUT.json';
+import OUTPUT_LIST from './output/att/OUTPUT.json';
 
 const create = (target: string) => {
   const header = 'date,count';

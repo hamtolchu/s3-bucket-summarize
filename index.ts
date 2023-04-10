@@ -148,6 +148,10 @@ const bytesToMegabyte = (value: number) =>
 
 const run = async () => {
   const list = await extractPrefixList();
+
+  // NOTE: 전체 리스트 데이터 백업
+  await writeFile('FULL.json', JSON.stringify(list));
+
   const bucketSummaryList = await pipe(
     list as string[],
     toAsync,
